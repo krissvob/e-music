@@ -1,0 +1,331 @@
+header {
+    background-image: url("../images/koncert.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-wrapper {
+    width: 73.7%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 135px;
+}
+
+header h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+header span {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 65px;
+    color: #FFD7AF;
+}
+
+header p {
+    width: 80%;
+    margin-top: 0;
+    color: white;
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info-box {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+.logos-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.logos-wrapper {
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+}
+
+@media screen and (max-width: 1230px) {
+    .logos-wrapper {
+        gap: 20px;
+        height: 120px;
+    }
+
+    .logos-wrapper img {
+        width: 100%;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .logos-wrapper img {
+        width: 110px;
+        height: 110px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .logos-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+    }
+
+    .logos-wrapper img {
+        width: 50px;
+        height: 200px;
+    }
+}
+
+.logos-wrapper img {
+    width: 250px;
+}
+
+.logos-container h4 {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.services-section {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-section h2 {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.service-align {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-bottom: 100px;
+}
+
+.services-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.services-container button {
+    background: linear-gradient(#FE8004, #CC6500);
+    border: none;
+    border-radius: 5px;
+    padding: 12px 0px 12px 0px;
+    margin-bottom: 40px;
+    width: 80%;
+}
+
+.services-container button a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.services-wrapper {
+    text-align: center;
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #FE8004;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.500);
+}
+
+.service-box {
+    padding: 40px;
+}
+
+.service-header {
+    width: 100%;
+    height: 230px;
+    position: relative;
+    bottom: 1px;
+    border-radius: 4.5px 4.5px 0px 0px;
+
+}
+
+.service-header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4.5px 4.5px 0px 0px;
+}
+
+.service-header h3 {
+    color: black;
+    background-color: #FBFBFB;
+    font-weight: bold;
+    font-size: 32px;
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px 10px 5px 10px;
+    border-radius: 5px 5px 0px 0px;
+    position: relative;
+    bottom: 54px;
+}
+
+
+
+/*ADAPTIVE - PHONES*/
+@media screen and (max-width: 1150px) {
+    .service-align {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+
+
+@media screen and (max-width: 940px) {
+    .header-wrapper {
+        padding: 85px;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    header span {
+        font-size: 37px;
+    }
+
+    header p {
+        font-size: 20px;
+        line-height: 35px;
+        letter-spacing: 0;
+    }
+
+    .service-align {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding-bottom: 50px;
+    }
+
+    .services-wrapper {
+        width: 460px;
+    }
+
+    .service-box {
+        padding-top: 10px;
+    }
+
+    .service-header {
+        width: 460px;
+        height: 230px;
+        position: relative;
+        bottom: 1px;
+        border-radius: 4.5px 4.5px 0px 0px;
+    }
+}
+
+
+
+@media screen and (max-width: 500px) {
+    header span {
+        font-size: 28px;
+    }
+
+    .services-wrapper {
+        width: 400px;
+    }
+
+    .service-header {
+        width: 400px;
+        height: 230px;
+        position: relative;
+        bottom: 1px;
+        border-radius: 4.5px 4.5px 0px 0px;
+    }
+
+    .service-align {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service-box p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    header h1 {
+        font-size: 20px;
+    }
+
+    header p {
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 0;
+    }
+
+    .services-container {
+        padding-bottom: 100px;
+    }
+
+    .service-header img {
+        height: 180px;
+    }
+
+    .service-box {
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .service-box p {
+        font-size: 14px;
+    }
+
+    .services-wrapper {
+        width: 350px;
+    }
+
+    .service-header {
+        width: 350px;
+        height: 180px;
+    }
+
+    .service-header h3 {
+        font-size: 24px;
+        bottom: 44px;
+    }
+
+     .service-align {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding-bottom: 5px;
+    }
+}

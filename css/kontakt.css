@@ -1,0 +1,36 @@
+#kontakt-info {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+}
+
+#kontakt-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#fb-follow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#fb-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    width: 10%;
+}
+
+#fb-name img {
+    width: 10%;
+    height: 10%;
+}

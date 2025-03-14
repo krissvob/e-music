@@ -1,0 +1,17 @@
+.gallery-button {
+    background-color: transparent;
+    color: #5E5E5E;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing:  1px;
+}
+
+.gallery-button:not(.active-gallery):hover {
+    color: black;
+}
+
+.active-gallery {
+    color: #FE8004;
+}
